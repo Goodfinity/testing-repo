@@ -1,0 +1,19 @@
+blank_issues_enabled: false
+issue_templates:
+  - name: 🐛 Bug Report
+    description: Report a reproducible bug or issue in the project.
+    title: "[Bug] "
+    labels: [bug]
+    file: bug_report.md
+
+  - name: 🛠️ Task / Technical Issue
+    description: Internal task, refactor, or non-feature development issue.
+    title: "[Task] "
+    labels: [task]
+    file: task_report.md
+
+  - name: ✨ Feature Request
+    description: Suggest a new feature or enhancement.
+    title: "[Feature] "
+    labels: [enhancement]
+    file: feature_request.md
